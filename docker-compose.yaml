@@ -56,6 +56,7 @@ services:
     volumes:
       - postgres-db-volume:/var/lib/postgresql/data
       - ./spark/data:/opt/bitnami/spark/resources/data
+      - ./init:/docker-entrypoint-initdb.d
     healthcheck:
       test: ["CMD", "pg_isready", "-U", "airflow"]
       interval: 10s
