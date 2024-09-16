@@ -36,9 +36,9 @@ This project combines Apache Hive, Apache Spark, and Apache Airflow within Docke
 
 ### Prerequisites
 
-- Docker installed on your system. Check out how to install Docker [here](#https://docs.docker.com/engine/install/).
-- [Docker Compose](#https://docs.docker.com/compose/install/) installed. However, if you've installed Docker Desktop, it should be included.
-- (Optional) [Git](#https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed on your machine.
+- Docker installed on your system. Check out how to install Docker [here](https://docs.docker.com/engine/install/).
+- [Docker Compose](https://docs.docker.com/compose/install/) installed. However, if you've installed Docker Desktop, it should be included.
+- (Optional) [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed on your machine.
 
 ### Installation
 
@@ -95,7 +95,7 @@ chmod -R 777 warehouse/
 
 **(Optional) Use pgadmin to manage your Postgres database**
 
-[pgAdmin](#https://www.pgadmin.org/) is an interface tool that allows users to manage their Postgres. To login to this service on the container, go to http://localhost:8888/. Login with: 
+[pgAdmin](https://www.pgadmin.org/) is an interface tool that allows users to manage their Postgres. To login to this service on the container, go to http://localhost:8888/. Login with: 
 
 - user: **admin@example.com**
 - password: **password**
